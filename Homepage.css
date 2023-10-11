@@ -1,0 +1,224 @@
+body {
+
+  background-image: url(bg.jpg);
+
+  background-repeat: no-repeat;
+
+  background-position: center;
+
+  background-size: cover;
+
+}
+
+ 
+
+/* Navigation Styles */
+
+.topnav {
+
+  color: #9DCCE9;
+
+ 
+
+  color: white;
+
+ 
+
+  width: 100%; /* Full-width navigation bar */
+
+  height: 56px;
+
+  display: flex; /* Make the navigation items align horizontally */
+
+  justify-content: center; /* Center-align navigation items */
+
+  background-color: rgba(0, 0, 0, 0.5);
+
+  align-items: center; /* Vertically center the items */
+
+}
+
+ 
+
+/* Navigation Item Styles */
+
+.topnav .Home {
+  color: #9DCCE9;
+
+  font-weight: 700;
+
+  padding: 10px 25px;
+
+  margin-right: 24px;
+
+}
+
+.title{
+
+  color:white;
+
+  background-color: rgba(63, 96, 146, 0.7);
+
+  opacity: 1.0;
+  letter-spacing: 3px;
+
+}
+
+ 
+
+li {
+
+  list-style-type: none;
+
+}
+
+ul{
+
+  background-color: rgba(0, 0, 0, 0.5);
+
+  display: flex;
+
+  align-items: center;
+
+  height: 40px;
+
+font-size :14px;
+
+font-family: system-ui;
+
+  border: 1px solid #3f6092;
+
+}
+
+li:hover{
+
+  background-color: #9DCCE9;
+
+}
+
+/* Header Styles */
+
+.header {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  padding: 20px;
+
+  background-color: rgba(0, 0, 0, 0.5);
+
+  color: white;
+
+}
+
+ 
+
+/* Style Section */
+
+.style {
+
+  display: flex;
+
+  text-align: center;
+
+  align-items: center;
+
+  justify-content: center;
+
+  flex-direction: column;
+
+}
+
+ 
+
+/* Title Styles */
+
+.title1 {
+
+  margin: 5px;
+
+  border: 1px solid #ccc;
+
+  text-align: center;
+
+}
+
+ 
+
+/* Row and Column Styles */
+
+.row {
+
+  width: 100%;
+
+  display: flex;
+
+}
+
+ 
+
+.col {
+
+  flex: 1; /* Make the columns equal width */
+
+  padding: 15px;
+
+  color: white;
+
+}
+
+ 
+
+/* Content Section Styles */
+
+.content {
+
+  max-width: 946px;
+
+  margin: auto;
+
+  background-color: rgba(0, 0, 0, 0.7);
+
+  /* padding: 20px; */
+
+  color: white;
+
+}
+
+ 
+
+/* Footer Styles */
+
+.footer {
+
+    background-color: rgba(0, 0, 0, 0.2);
+
+    color: white;
+
+    text-align: center;
+
+    padding: 10px 0;
+
+    width: 949px;
+
+    margin: auto;
+
+}
+
+ 
+
+.footerSize{
+
+padding-top:20px;
+
+padding: 20px;
+
+}
+a:link {
+  color:#9DCCE9;
+}
+
+ 
